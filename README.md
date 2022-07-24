@@ -1,4 +1,4 @@
-# H-A-Gripper
+# Non-Contact Tactile Perception \\ for Hybrid-Active Gripper
 
 This work presents a novel approach to object recognition using a reconfigurable gripper with multiple Time of Flight (ToF) sensors attached to in fingers and palm, introducing the concept of  Non-Contact Tactile Perception. The approach aims to promote the proprioceptive sense in the gripper workspace allowing the object prediction to manipulation tasks.
 
