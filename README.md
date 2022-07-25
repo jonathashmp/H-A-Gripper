@@ -18,18 +18,26 @@ These instructions can be used for the reconstruction of the project and analysi
 
 All the tests was processing on Ubuntu 18.04 with ROS Melodic 1.14.13, and MATLAB R2022a. The ROS was used to integrate the Arduino with MATLAB.
 
-### 1 - H-A Grippers' project
+### 1 - H-A Grippers' project.
 
 This gripper is a project developed with affordable electronic devices and structural parts printed in PLA from 3D printers. The H-A Gripper uses seventten sensors VL53L0X for detecting and scanning the objects, nine servo motors MG996R for controlling the all moves of the gripper, and one microcontroller Arduino MEGA to work.
 
 The project is in the past xxxx.
 
-### 2 - How scan the objects
+### 2 - How scan the objects.
 
-The files to realize this step are in the past xxxx. The arduino needs have 
+The files to realize this step are in the past xxxx. The arduino have been working eith the code xxxxx.
 
 1 - Connecting the arduino with rosserial. In doubt visit this link.
-2 - Open the file xxxx in the MATLAB. This fil
+
+2 - Open the file xxxx in the MATLAB.
+
+3 - Put the object in front of the grippers' palm and start the simulate.
+
+4 - Wait the process and in the end will be create a file with the results.
+
+5 - These results are used in object prediction.
+
+### 3 - Analyzing the results in Matlab.
 
 
-###
