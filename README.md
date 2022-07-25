@@ -13,8 +13,7 @@ This video shows how objects were scanned by the gripper with laser sensors.
 Esse projeto apresenta a H-A-Gripper realizando a reconstrução de objetos utilizando sensores de distância.
 
 <p float="left">
-<img src="https://github.com/jonathashmp/H-A-Gripper/blob/main/front_video_gif.gif" width=50% height=50%>
-<img src="https://github.com/jonathashmp/H-A-Gripper/blob/main/top_video.gif" width=50% height=50%>
+<img src="https://github.com/jonathashmp/H-A-Gripper/blob/main/front_video_gif.gif" width=50% height=50%/> <img src="https://github.com/jonathashmp/H-A-Gripper/blob/main/top_video.gif" width=50% height=50%>
 </p>
 
-![alt-text-1](image1.png](https://github.com/jonathashmp/H-A-Gripper/blob/main/front_video_gif.gif) "title-1") ![alt-text-2]([image2.png](https://github.com/jonathashmp/H-A-Gripper/blob/main/top_video.gif) "title-2")
+
