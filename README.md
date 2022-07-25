@@ -17,3 +17,4 @@ Esse projeto apresenta a H-A-Gripper realizando a reconstrução de objetos util
 <img src="https://github.com/jonathashmp/H-A-Gripper/blob/main/top_video.gif" width=50% height=50%>
 </p>
 
+![alt-text-1](image1.png](https://github.com/jonathashmp/H-A-Gripper/blob/main/front_video_gif.gif) "title-1") ![alt-text-2]([image2.png](https://github.com/jonathashmp/H-A-Gripper/blob/main/top_video.gif) "title-2")
