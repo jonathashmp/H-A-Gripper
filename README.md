@@ -8,9 +8,9 @@ The H-A Gripper also has twelve sensors distributed over its three fingers: four
 The proposed approach is evaluated in four experiments that analyze the influence of resolution, object complexity, finger tilt, and angular sampling over eleven objects with different complexities. The experimentation set allows the overall evaluation of Non-Contact Tactile Perception and the specification of its performance parameters.
 
 
-Below we have the claw scanning a sphere, on the left a video using the front view and on the right the top view.This video shows how objects were scanned by the gripper with laser sensors.
+Below we have the H-A Gripper scanning a sphere, on the left a video using the front view and on the right the top view. 
 
-<img src="https://github.com/jonathashmp/H-A-Gripper/blob/main/front_video_gif.gif" width=40% height=40% /> <img src="https://github.com/jonathashmp/H-A-Gripper/blob/main/top_video.gif" width=50% height=50% />
+<img src="https://github.com/jonathashmp/H-A-Gripper/blob/main/Videos/front_video.gif" width=40% height=40% /> <img src="https://github.com/jonathashmp/H-A-Gripper/blob/main/Videos/top_video.gif" width=50% height=50% />
 
 ## Instructions
 
