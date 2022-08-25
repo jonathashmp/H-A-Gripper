@@ -36,7 +36,7 @@ Steps used to perform the experiments:
 
 4 - These results are used in predicting objects.
 
-You can [watch] viedo to better understand this stage of experiments
+You can [watch viedo](https://github.com/jonathashmp/Non-Contact-Tactile-Perception-for-Hybrid-Active-Gripper/blob/main/Videos/project%20scan%20simulation.mp4) to better understand this stage of experiments
 
 ### 2 - Analyzing the results in Matlab.
 
@@ -44,7 +44,7 @@ The results were separated at two parts. A folder with the individual results of
 
 1 - Folder with the individual results of each simulation of each object
 
-    This instruction is to show how the files were stored and processed in Matlab. You can use this information and make your analysis with the results     obtained in this project. 
+This instruction is to show how the files were stored and processed in Matlab. You can use this information and make your analysis with the results     obtained in this project. 
 
 There are eleven folders in this directory, where each folder contains the results collected in each experiment performed for each object.
 
