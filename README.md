@@ -24,7 +24,7 @@ This claw is a project developed with affordable electronic devices and structur
 
 All experiments were processed on Ubuntu 18.04 with ROS Melodic 1.14.13 and MATLAB R2022a. ROS was used to integrate Arduino with MATLAB.
 
-All objects used in the experiments were printed from 3D printers and can be found in the STL object folder.
+All objects used in the experiments were printed from 3D printers and can be found in the [STL object](https://github.com/jonathashmp/Non-Contact-Tactile-Perception-for-Hybrid-Active-Gripper/tree/main/STL%20files).
 
 Steps used to perform the experiments:
 
