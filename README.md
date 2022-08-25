@@ -24,7 +24,7 @@ This claw is a project developed with affordable electronic devices and structur
 
 All experiments were processed on Ubuntu 18.04 with ROS Melodic 1.14.13 and MATLAB R2022a. ROS was used to integrate Arduino with MATLAB.
 
-All objects used in the experiments were printed from 3D printers and can be found in the [STL object](https://github.com/jonathashmp/Non-Contact-Tactile-Perception-for-Hybrid-Active-Gripper/tree/main/STL%20files).
+All objects used in the experiments were printed from 3D printers and can be found in the [STL files](https://github.com/jonathashmp/Non-Contact-Tactile-Perception-for-Hybrid-Active-Gripper/tree/main/STL%20files).
 
 Steps used to perform the experiments:
 
@@ -42,7 +42,7 @@ You can [watch viedo](https://github.com/jonathashmp/Non-Contact-Tactile-Percept
 
 The results were separated at two parts. A folder with the individual results of each experiment realized and other folder with the all results together of each object.
 
-1 - Folder with the individual results of each simulation of each object
+1 - [Folder with the individual results of each simulation of each object.](https://github.com/jonathashmp/Non-Contact-Tactile-Perception-for-Hybrid-Active-Gripper/tree/main/Results%20of%20experiments/individual%20files%20of%20each%20simulation%20by%20object)
 
 This instruction is to show how the files were stored and processed in Matlab. You can use this information and make your analysis with the results     obtained in this project. 
 
@@ -60,7 +60,7 @@ Closing is the angle of closure of the finger at the time of data collection. Th
 
 Step is the number of variations performed by the gripper while reading the data. Power 6 for variation from 0º to 180º from 30 to 30 degrees, 9 for variations from 0º to 180º from 20 to 20 degrees and 18 for variations from 0º to 180º from 10 to 10 degrees.
 
-These data were processed in matlab software with the dalaunay triangulation function to make the object prediction. With this function it was possible to compare the scanned object with the object file that was printed on the 3D printer that is in the xxx folder.
+These data were processed in matlab software with the dalaunay triangulation function to make the object prediction. With this function it was possible to compare the scanned object with the object file that was printed on the 3D printer that is in the [STL files](https://github.com/jonathashmp/Non-Contact-Tactile-Perception-for-Hybrid-Active-Gripper/tree/main/STL%20files).
 
 2 - Folder with the results of each object in a single file
 
