@@ -14,30 +14,56 @@ Below we have the H-A Gripper scanning a sphere, on the left a video using the f
 
 ## Instructions
 
-These instructions can be used for the reconstruction of the project and analysis of its results.
+These instructions aim to explain the results found in this work and which are attached in the experiment results folder.
 
-All the tests was processing on Ubuntu 18.04 with ROS Melodic 1.14.13, and MATLAB R2022a. The ROS was used to integrate the Arduino with MATLAB.
+With this shared data, it is possible to reconstruct the analysis of each experiment.
 
-### 1 - H-A Grippers' project.
+### 1 - H-A Grippers design and experiments.
 
-This gripper is a project developed with affordable electronic devices and structural parts printed in PLA from 3D printers. The H-A Gripper uses seventten sensors VL53L0X for detecting and scanning the objects, nine servo motors MG996R for controlling the all moves of the gripper, and one microcontroller Arduino MEGA to work.
+This claw is a project developed with affordable electronic devices and structural parts printed in PLA using 3D printers. The H-A gripper uses seventeen VL53L0X sensors to detect and scan the objects, nine MG996R servo motors to control all grip movements and an Arduino MEGA microcontroller to work with.
 
-The project is in the past xxxx.
+All experiments were processed on Ubuntu 18.04 with ROS Melodic 1.14.13 and MATLAB R2022a. ROS was used to integrate Arduino with MATLAB.
 
-### 2 - How scan the objects.
+All objects used in the experiments were printed from 3D printers and can be found in the STL object folder.
 
-The files to realize this step are in the past xxxx. The arduino have been working eith the code xxxxx.
+Steps used to perform the experiments:
 
-1 - Connecting the arduino with rosserial. In doubt visit this link.
+1 - Connecting the arduino with rosserial and MATLAB.
 
-2 - Open the file xxxx in the MATLAB.
+2 - Place the object in front of the palm of the gripper and start the simulation.
 
-3 - Put the object in front of the grippers' palm and start the simulate.
+3 - Waiting for the process and at the end a file with the results will be created.
 
-4 - Wait the process and in the end will be create a file with the results.
+4 - These results are used in predicting objects.
 
-5 - These results are used in object prediction.
+You can [watch] viedo to better understand this stage of experiments
 
-### 3 - Analyzing the results in Matlab.
+### 2 - Analyzing the results in Matlab.
 
+The results were separated at two parts. A folder with the individual results of each experiment realized and other folder with the all results together of each object.
 
+1 - Folder with the individual results of each simulation of each object
+
+    This instruction is to show how the files were stored and processed in Matlab. You can use this information and make your analysis with the results     obtained in this project. 
+
+There are eleven folders in this directory, where each folder contains the results collected in each experiment performed for each object.
+
+The name of the files is using the following structure:
+
+**object_simulation_closing_step**
+
+Object is the name of the scanned object. Example: bottle, cube_40, etc.
+
+The simulation is the identification of which experiment was performed, ranging from 1 to 5, because for each object five repetitions of experiments were performed.
+
+Closing is the angle of closure of the finger at the time of data collection. This variation can be 60º, 70º, 80º or 90º which were the angles at which the fingers were positioned to collect the data.
+
+Step is the number of variations performed by the gripper while reading the data. Power 6 for variation from 0º to 180º from 30 to 30 degrees, 9 for variations from 0º to 180º from 20 to 20 degrees and 18 for variations from 0º to 180º from 10 to 10 degrees.
+
+These data were processed in matlab software with the dalaunay triangulation function to make the object prediction. With this function it was possible to compare the scanned object with the object file that was printed on the 3D printer that is in the xxx folder.
+
+2 - Folder with the results of each object in a single file
+
+In this instruction you can do an analysis of each object with all experiments in a single file.
+
+In this folder you will find the files saved with the names of the objects and all the data in csv format. With these data it is possible to make a global analysis of the experiments.
