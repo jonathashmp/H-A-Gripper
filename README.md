@@ -42,7 +42,7 @@ You can [watch viedo](https://github.com/jonathashmp/Non-Contact-Tactile-Percept
 
 The results were separated at two parts. A folder with the individual results of each experiment realized and other folder with the all results together of each object.
 
-1 - [Folder with the individual results of each simulation of each object.](https://github.com/jonathashmp/Non-Contact-Tactile-Perception-for-Hybrid-Active-Gripper/tree/main/Results%20of%20experiments/individual%20files%20of%20each%20simulation%20by%20object)
+1 - [Folder with the individual results of each simulation of each object](https://github.com/jonathashmp/Non-Contact-Tactile-Perception-for-Hybrid-Active-Gripper/tree/main/Results%20of%20experiments/individual%20files%20of%20each%20simulation%20by%20object).
 
 This instruction is to show how the files were stored and processed in Matlab. You can use this information and make your analysis with the results     obtained in this project. 
 
@@ -62,7 +62,7 @@ Step is the number of variations performed by the gripper while reading the data
 
 These data were processed in matlab software with the dalaunay triangulation function to make the object prediction. With this function it was possible to compare the scanned object with the object file that was printed on the 3D printer that is in the [STL files](https://github.com/jonathashmp/Non-Contact-Tactile-Perception-for-Hybrid-Active-Gripper/tree/main/STL%20files).
 
-2 - Folder with the results of each object in a single file
+2 - [Folder with the results of each object in a single file](https://github.com/jonathashmp/Non-Contact-Tactile-Perception-for-Hybrid-Active-Gripper/tree/main/Results%20of%20experiments/files%20of%20all%20simulations%20by%20object).
 
 In this instruction you can do an analysis of each object with all experiments in a single file.
 
