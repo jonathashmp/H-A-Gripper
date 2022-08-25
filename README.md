@@ -36,7 +36,7 @@ Steps used to perform the experiments:
 
 4 - These results are used in predicting objects.
 
-You can [watch viedo](https://github.com/jonathashmp/Non-Contact-Tactile-Perception-for-Hybrid-Active-Gripper/blob/main/Videos/project%20scan%20simulation.mp4) to better understand this stage of experiments
+You can [watch video](https://github.com/jonathashmp/Non-Contact-Tactile-Perception-for-Hybrid-Active-Gripper/blob/main/Videos/project%20scan%20simulation.mp4) to better understand this stage of experiments
 
 ### 2 - Analyzing the results in Matlab.
 
